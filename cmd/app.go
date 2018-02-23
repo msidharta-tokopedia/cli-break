@@ -6,10 +6,12 @@ import (
 )
 
 func main() {
+
 	counter := 1
 	limit := 100000000
+	//thereshold := 25.0
 	for counter <= limit {
-		fmt.Println("COUNTER AT " + strconv.Itoa(counter))
+		fmt.Print("COUNTER AT " + strconv.Itoa(counter) + " ")
 		counter++
 	}
 }
